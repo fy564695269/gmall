@@ -1,8 +1,12 @@
 package org.fy.gmall.user.controller;
 
+import org.fy.gmall.user.bean.UmsMember;
 import org.fy.gmall.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
 
 /**
  * @author fy
@@ -12,4 +16,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @Autowired
     UserService userService;
+    @GetMapping("/getAllUser")
+    public List<UmsMember> getAllUser(){
+      List<UmsMember> umsMembers=userService.getAllUser();
+      return umsMembers;
+    }
+    @GetMapping("/index")
+    public String test(){
+        return "hello user";
+    }
 }
