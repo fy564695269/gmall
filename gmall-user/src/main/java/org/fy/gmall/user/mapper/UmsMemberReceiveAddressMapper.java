@@ -1,6 +1,6 @@
 package org.fy.gmall.user.mapper;
 
-import org.fy.gmall.user.bean.UmsMemberReceiveAddress;
+import org.fy.gmall.bean.UmsMemberReceiveAddress;
 import org.apache.ibatis.annotations.Param;
 import java.util.List;
 

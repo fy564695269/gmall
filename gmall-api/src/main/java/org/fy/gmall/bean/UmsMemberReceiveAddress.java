@@ -1,4 +1,4 @@
-package org.fy.gmall.user.bean;
+package org.fy.gmall.bean;
 
 import java.io.Serializable;
 

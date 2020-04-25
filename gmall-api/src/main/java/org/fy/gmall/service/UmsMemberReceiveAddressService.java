@@ -1,6 +1,6 @@
-package org.fy.gmall.user.service;
+package org.fy.gmall.service;
 
-import org.fy.gmall.user.bean.UmsMemberReceiveAddress;
+import org.fy.gmall.bean.UmsMemberReceiveAddress;
 import java.util.List;
 
 /**

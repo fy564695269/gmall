@@ -1,8 +1,10 @@
 package org.fy.gmall.user.controller;
 
-import org.fy.gmall.user.bean.UmsMemberReceiveAddress;
-import org.fy.gmall.user.service.UmsMemberReceiveAddressService;
-import org.springframework.web.bind.annotation.*;
+import org.fy.gmall.bean.UmsMemberReceiveAddress;
+import org.fy.gmall.service.UmsMemberReceiveAddressService;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 

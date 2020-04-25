@@ -1,7 +1,7 @@
 package org.fy.gmall.user.controller;
 
-import org.fy.gmall.user.bean.UmsMember;
-import org.fy.gmall.user.service.UserService;
+import org.fy.gmall.bean.UmsMember;
+import org.fy.gmall.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

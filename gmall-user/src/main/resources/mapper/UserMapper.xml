@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="org.fy.gmall.user.mapper.UserMapper">
 
-    <resultMap type="org.fy.gmall.user.bean.UmsMember" id="UmsMemberMap">
+    <resultMap type="org.fy.gmall.bean.UmsMember" id="UmsMemberMap">
         <result property="id" column="id" jdbcType="INTEGER"/>
         <result property="memberLevelId" column="member_level_id" jdbcType="INTEGER"/>
         <result property="username" column="username" jdbcType="VARCHAR"/>
@@ -24,7 +24,7 @@
         <result property="historyIntegration" column="history_integration" jdbcType="INTEGER"/>
     </resultMap>
 
-    <select id="selectAllUser" resultType="org.fy.gmall.user.bean.UmsMember">
+    <select id="selectAllUser" resultType="org.fy.gmall.bean.UmsMember">
         select * from ums_member
     </select>
     <!--查询单个-->

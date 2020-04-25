@@ -1,8 +1,8 @@
 package org.fy.gmall.user.service.impl;
 
-import org.fy.gmall.user.bean.UmsMemberReceiveAddress;
+import org.fy.gmall.bean.UmsMemberReceiveAddress;
 import org.fy.gmall.user.mapper.UmsMemberReceiveAddressMapper;
-import org.fy.gmall.user.service.UmsMemberReceiveAddressService;
+import org.fy.gmall.service.UmsMemberReceiveAddressService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

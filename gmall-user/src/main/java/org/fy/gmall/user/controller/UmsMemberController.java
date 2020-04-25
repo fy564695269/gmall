@@ -1,7 +1,7 @@
 package org.fy.gmall.user.controller;
 
-import org.fy.gmall.user.bean.UmsMember;
-import org.fy.gmall.user.service.UmsMemberService;
+import org.fy.gmall.bean.UmsMember;
+import org.fy.gmall.service.UmsMemberService;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
